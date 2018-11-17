@@ -43,9 +43,9 @@ public class Hello {
         found = h.linearSearch(str, s -> s.equals(sss));    //not found
         System.out.println("Index " + found);
         found = h.linearSearch(num, i -> i.equals(iii));    //found at position 0
-        System.out.println(found);
+        System.out.println("Index " found);
         found = h.linearSearch(str, s -> s.equals(sss2));    //found at position 2
-        System.out.println(found);
+        System.out.println("Index " found);
     }
     
 }
